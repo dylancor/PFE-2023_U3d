@@ -33,19 +33,6 @@ const Ejercicio01 = () => {
                 type="button"
                 onClick={handleCalcular}
             >Calcular</button>
-
-            <br />
-            {valorNeto === 0 &&
-            <small>ingrese el valor neto para calcular el total</small>
-            }
-            <br />
-            {valorTotal !== 0 &&
-            <div>
-                <h2>Resultado</h2>
-                <p>Valor total: {valorTotal}</p>
-            </div>
-            }
-            
         </>
     )
 }

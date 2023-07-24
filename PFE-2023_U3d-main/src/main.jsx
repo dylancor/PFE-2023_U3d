@@ -6,13 +6,11 @@ import {
     RouterProvider,
 } from "react-router-dom"
 
-import 'bootstrap/dist/css/bootstrap.min.css'
 
 // components
-import App from './App' // main app
+import App from './App.jsx' // main app
 import HolaMundo from "./components/HolaMundo" // router example
-import Calama from "./components/Calama" // router example
-import Tareas from './components/tareas/tarea'
+import Calama from "./components/Calama.jsx" // router example
 
 // components: ejemplos 01
 import EstadosInicio from "./components/ej01_estados/EstadosInicio"
@@ -48,11 +46,6 @@ const router = createBrowserRouter([
     {
         path: "/ejercicio01",
         element: <Ejercicio01 />
-    },
-    
-    {
-        path: "/tareas",
-        element: <Tareas />
     }
 ])
 
